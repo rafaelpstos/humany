@@ -17,7 +17,7 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/items', itemRoutes);
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 1338;
 
 const server = app.listen(port, function(){
   console.log('Listening on port ' + port);
