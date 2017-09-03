@@ -1,3 +1,3 @@
 module.exports = {
-    DB: 'mongodb://localhost:27017/humany'
+    DB: 'mongodb://humany.documents.azure.com:443/'
   };
