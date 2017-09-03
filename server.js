@@ -13,7 +13,7 @@ mongoose.connect(config.DB).then(
   );
 
 const app = express();
-app.use(express.static('public'));
+app.use(express.static('wwwroot'));
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/items', itemRoutes);
